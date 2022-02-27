@@ -7,7 +7,11 @@ Basic command syntax is as follows:
 ```
 dpedit.exe <monitorNum> <xPos> <yPos> [<monitorNum2> <xPos2> <yPos2>] ...
 ```
-`<monitorNum>` is the index of the monitor to position, where 1 = Main, 2 = Secondary, etc.
+~`<monitorNum>` is the index of the monitor to position, where 1 = Main, 2 = Secondary, etc.~
+
+> The original statement is not right. `<monitorNum>` does neither mean the main/secondary/... display nor relate to the number in system Setting app.
+> Hence I wrote a program to print all displays with a `<monitorNum>`. See [extra/main.cpp](extra/main.cpp)
+> — GreenYun
 
 `<xPos>` is the X, or horizontal, position, in pixels, of the top-left corner of monitor `<monitorNum>`.
 
